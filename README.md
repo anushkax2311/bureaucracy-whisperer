@@ -65,12 +65,46 @@ This enables interpretation of unstructured legal documents at scale.
 
 ---
 
-## 🏗️ Architecture
 
-Detailed system design available in:
+## 📄 Documentation
+
+See:
 
 - `requirements.md`
 - `design.md`
 
-High-level pipeline:
+---
+
+## 🧰 Tech Stack
+
+### Frontend
+- React / Next.js  
+- Tailwind CSS  
+
+### Backend
+- Node.js / Python  
+- FastAPI / Express  
+
+### AI
+- OpenAI / Claude  
+- Embeddings + Vector Database  
+
+### Infrastructure
+- AWS / GCP  
+- Secure encrypted storage  
+
+---
+
+## 🌍 Impact
+
+- Reduces application rejection  
+- Increases access to public services  
+- Supports low-literacy users  
+- Enables multilingual governance  
+
+---
+
+## 🧪 Status
+
+Hackathon MVP in progress.
 
