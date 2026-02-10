@@ -1,109 +1,76 @@
-Bureaucracy Whisperer
+# Bureaucracy Whisperer
 
 AI-powered system that converts complex government and legal PDFs into clear, actionable workflows using LLM + RAG.
 
-Problem
+---
+
+## 🚨 Problem
 
 Citizens struggle to understand bureaucratic documents due to:
 
-complex legal language
+- Complex legal language
+- Scattered requirements across multiple pages
+- Hidden deadlines and fees
+- Multilingual barriers
+- Dependence on intermediaries/agents
 
-scattered requirements
+This often leads to:
+- Application rejections
+- Delays in approvals
+- Missed deadlines
+- Lack of access to public services
 
-unclear deadlines
+---
 
-multilingual barriers
+## 💡 Solution
 
-This leads to application rejections, delays, and dependence on intermediaries.
+**Bureaucracy Whisperer** transforms complex documents into:
 
-Solution
+- Step-by-step workflows  
+- Deadline tracking  
+- Requirement checklists  
+- Multilingual explanations  
+- Interactive question answering  
 
-Bureaucracy Whisperer transforms documents into:
+From **PDF → Actionable guidance.**
 
-step-by-step workflows
+---
 
-deadline tracking
+## 🤖 AI Approach
 
-requirement checklists
+The system uses AI for contextual reasoning — not rule-based parsing.
 
-multilingual explanations
+Core components:
 
-interactive Q&A
+- Retrieval-Augmented Generation (RAG)
+- Semantic document understanding
+- Structured task extraction
+- Legal language simplification
+- Confidence-based reasoning
+- Citation-grounded responses
 
-AI Approach
+This enables interpretation of unstructured legal documents at scale.
 
-Retrieval-Augmented Generation (RAG)
+---
 
-Semantic document understanding
+## ⚙️ System Capabilities
 
-Structured task extraction
+- 📄 PDF upload & OCR support  
+- 🧾 Deadline and fee extraction  
+- 📑 Required document detection  
+- 🪜 Workflow generation  
+- ✅ Interactive checklist  
+- 🌍 Multilingual translation  
+- 💬 Q&A with citation-based reasoning  
 
-Legal language simplification
+---
 
-Confidence-based reasoning
+## 🏗️ Architecture
 
-Citation-grounded responses
+Detailed system design available in:
 
-System Capabilities
+- `requirements.md`
+- `design.md`
 
-PDF upload & OCR
+High-level pipeline:
 
-Deadline + fee extraction
-
-Document requirement detection
-
-Workflow generation
-
-Interactive checklist
-
-Multilingual translation
-
-Question answering with citations
-
-Architecture
-
-See:
-
-requirements.md
-
-design.md
-
-Tech Stack
-
-Frontend:
-
-React / Next.js
-
-Tailwind CSS
-
-Backend:
-
-Node.js / Python
-
-FastAPI / Express
-
-AI:
-
-OpenAI / Claude
-
-Embeddings + Vector DB
-
-Infra:
-
-AWS / GCP
-
-Secure storage
-
-Impact
-
-reduces application rejection
-
-increases access to public services
-
-supports low-literacy users
-
-enables multilingual governance
-
-Status
-
-Hackathon MVP in progress.
